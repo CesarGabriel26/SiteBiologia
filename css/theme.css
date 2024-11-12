@@ -1,0 +1,56 @@
+:root {
+    --green-p : #618264;
+    --green-s : #79AC78;
+    --green-t : #B0D9B1;
+    --green-q : #D0E7D2;
+}
+
+*{
+    user-select: none;
+}
+
+header {
+    background-color: var(--green-t) !important;
+}
+
+.bg-green-q {
+    background-color: var(--green-q) !important;
+}
+
+.bg-green-s {
+    background-color: var(--green-s) !important;
+}
+
+.text-green-s {
+    color: var(--green-s);
+}
+
+.text-green-p {
+    color: var(--green-p);
+}
+
+
+.centralize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.centralize-f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card {
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.card:hover {
+    opacity: .8;
+    scale: 1.03;
+}
